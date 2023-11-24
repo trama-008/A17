@@ -7190,7 +7190,7 @@ Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
   ⌯       all NSFW commands.
   ⌯    
   ⌯   『  *${global.BotName}*  』
-  ⌯       Developed By: *Kai*
+  ⌯       Developed By: *SORA*
   ⌯    
   ⌯   🍁 To use any of these
   ⌯       commands type.
