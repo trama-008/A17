@@ -26,10 +26,10 @@ global.OwnerNumber = ["249119105711", "249119105711"];   //If you want singal nu
 global.ownertag = ["249119105711"];
 global.OwnerName = "SORA";
 global.BotName = "SHIRO";
-global.packname = "A17 Bot";                             //Do not change.
-global.author = "By: Kai";                               //Do not change.
-global.BotSourceCode = "https://github.com/Kai0071/A17"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
+global.packname = "SHIRO Bot";                             //Do not change.
+global.author = "By: SORA";                               //Do not change.
+global.BotSourceCode = "https://github.com/SORAxSHIRO"; //Do not change.
+global.SupportGroupLink = "https://chat.GOOGLE.COM";
 
 
 //
@@ -41,11 +41,11 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "Tata City, India";
+global.location = "nowhere, sudan";
 global.reactmoji = "❤️";
 global.themeemoji = "💖";
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
-global.websitex = "https://github.com/Kai0071";
+global.websitex = "https://github.com/SORAxSHIRO";
 global.lolhuman = "KaysaS";
 
 
