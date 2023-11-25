@@ -764,6 +764,9 @@ Typed *surrender* to surrender and admited defeat`
       konnichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
       'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
       'اهلا' :  `اهلا وسهلا`, 
+      'SORA':`sora-sama he is my owner and crater wish of you can meet him`, 
+      'سورا' :`سورا اوني تشان انه من قام بصنعي اتمنى لو تتمكن من مقابلته`, 
+      
       
       
     };
