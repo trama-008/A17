@@ -764,10 +764,13 @@ Typed *surrender* to surrender and admited defeat`
       konnichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
       'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
       'اهلا' :  `اهلا وسهلا`, 
+      
 
 
 
-
+if (smallinput.includes('تزوج')|| smallinput.includes('marry') || smallinput.includes('تتزوجي')) {
+    reply (`Mention not ${pushname} 😇. Sorry i can't accept that, I'm not legal 🎶🤍.`);
+  }
       
     };
 
