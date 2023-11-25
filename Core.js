@@ -765,12 +765,6 @@ Typed *surrender* to surrender and admited defeat`
       'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
       'اهلا' :  `اهلا وسهلا`, 
       
-
-
-
-if (smallinput.includes('تزوج')|| smallinput.includes('marry') || smallinput.includes('تتزوجي')) {
-    reply (`Mention not ${pushname} 😇. Sorry i can't accept that, I'm not legal 🎶🤍.`);
-  }
       
     };
 
@@ -780,6 +774,9 @@ if (smallinput.includes('تزوج')|| smallinput.includes('marry') || smallinput
       reply(responses[smallinput]);
     }
 
+if (smallinput.includes('تزوج')|| smallinput.includes('نتزوج') || smallinput.includes('marry')) {
+    reply (`آسفه لا يمكنني القبول بك، سورا لن يسمح بهذا`);
+            }
 
 
 
