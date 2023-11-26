@@ -783,6 +783,9 @@ if (smallinput.includes('تزوج')|| smallinput.includes('نتزوج') || small
     if (smallinput.includes('سورا')) {
     reply (`سورا اوني تشان انه من قام بصنعي اتمنى لو تتمكن من مقابلته `);
     }
+    if (smallinput.includes('kiss')) {
+    reply (`no kisses before marriage 🫵😾`);
+    }
 
 
     //-----------------------------------------------------------------------------------------------------------------------------------//
@@ -6454,7 +6457,7 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
 
 
       //
-      case 'kill': case 'pat': case 'lick': case 'kiss': case 'bite':
+      case 'kill': case 'pat': case 'bite':
       case 'bully': case 'bonk': case 'poke': case 'slap':
       case 'happy':
       case 'cuddle': case 'kick': {
