@@ -21,9 +21,9 @@ global.prefa = ["-"];                                    //Default prefix here. 
 
 
 //
-global.Owner = ["249119105711", "249119105711"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["249119105711", "249119105711"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.ownertag = ["249119105711"];
+global.Owner = ["249119105711", "249117300794"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["249119105711", "249117300793"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.ownertag = ["249117300794"];
 global.OwnerName = "SORA";
 global.BotName = "SHIRO";
 global.packname = "SHIRO Bot";                             //Do not change.
