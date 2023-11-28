@@ -765,8 +765,8 @@ Typed *surrender* to surrender and admited defeat`
       'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
       'اهلا' :  `اهلا وسهلا`, 
       'SORA':`sora-sama he is my owner and crater wish of you can meet him`, 
-      
-      
+      '-play' :`اعتذر هذا الأمر متوقف بشكل مؤقت`
+      '-song' :` الأمر متوقف بشكل مؤقت `
       
     };
 
