@@ -5179,7 +5179,7 @@ _Click the button below to download_`
       
       */
 
-
+/*
       /// Normal
       // case 'play': case 'song': case 'music': {
       //   if (isBan) return reply(mess.banned);	 			
@@ -5246,7 +5246,7 @@ _Click the button below to download_`
         // ...
       }
         break;
-
+*/
       case 'spotify': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
