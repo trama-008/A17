@@ -787,6 +787,9 @@ if (smallinput.includes('تزوج')|| smallinput.includes('نتزوج') || small
     reply (`no kisses before marriage 🫵😾`);
     }
 
+if (smallinput.includes('-play')|| smallinput.includes('-song')) {
+    reply (`هذا الأمر متوقف بشكل مؤقت`);
+}
 
     //-----------------------------------------------------------------------------------------------------------------------------------//
 
