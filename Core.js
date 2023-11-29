@@ -776,7 +776,7 @@ Typed *surrender* to surrender and admited defeat`
       reply(responses[smallinput]);
     }
 
-if (smallinput.includes('تزوج')|| smallinput.includes('نتزوج') || smallinput.includes('marry')) {
+if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو تزوجيني')) {
     reply (`آسفه لا يمكنني القبول بك، سورا لن يسمح بهذا`);
             }
 
@@ -787,9 +787,6 @@ if (smallinput.includes('تزوج')|| smallinput.includes('نتزوج') || small
     reply (`no kisses before marriage 🫵😾`);
     }
 
-if (smallinput.includes('play')|| smallinput.includes('song')) {
-    reply (`هذا الأمر متوقف بشكل مؤقت`);
-}
 
     //-----------------------------------------------------------------------------------------------------------------------------------//
 
