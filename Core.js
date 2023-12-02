@@ -2047,8 +2047,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
       }
         break;
 
-
-      case 'chatgpt':
+case 'chatgpt':
       case 'ai':
       case 'gpt': {
         if (isBan) return reply(mess.banned);
@@ -2082,7 +2081,9 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         }
       }
         break;
-case 'shiro':
+        
+
+      case 'shirogpt':
       case 'cai':
       case 'characterai': {
         if (isBan) return reply(mess.banned);
@@ -2139,25 +2140,7 @@ case 'shiro':
         break;
 
 
-      case 'dalle': case 'imgai': {
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
 
-        const randomEmoji = manyemojis[Math.floor(Math.random() * manyemojis.length)];
-        A17.sendMessage(from, { react: { text: randomEmoji, key: m.key } });
-
-        if (!q) return reply(`Please provide a query to generate an image. Example: ${prefix + command} Beautiful landscape`);
-
-        const apiUrl = `https://gurugpt.cyclic.app/dalle?prompt=${encodeURIComponent(q)}`;
-
-        try {
-          await A17.sendMessage(m.chat, { image: { url: apiUrl } }, { quoted: m });
-        } catch (error) {
-          console.error(error);
-          reply("An error occurred while generating the image.");
-        }
-      }
-        break;
 
 
 
