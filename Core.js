@@ -3775,7 +3775,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
       }
         break;
 
-
+/*
       case 'group': case 'grup': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
@@ -3788,7 +3788,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         } else if (args[0] === 'open') {
           await A17.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Group has been opened!`)).catch((err) => reply(jsonformat(err)))
         } else {
-
+*/
           let buttonMessage = {
             image: BotLogo,
             jpegThumbnail: Thumb,
