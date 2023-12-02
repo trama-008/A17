@@ -2092,7 +2092,7 @@ case 'chatgpt':
         const randomEmoji = manyemojis[Math.floor(Math.random() * manyemojis.length)];
         A17.sendMessage(from, { react: { text: randomEmoji, key: m.key } });
 
-        if (!q) return reply(`try talking to real girls next time`);
+        if (!q) return reply(`تكلم مع بنات حقيقيات المرة القادمة`);
 
         try {
           const apiUrl1 = `https://vihangayt.me/tools/characterai?q=${encodeURIComponent(q)}`;
@@ -2105,7 +2105,7 @@ case 'chatgpt':
           if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.data) {
             message = responseData1.data;
           } else {
-            return reply("جلا");
+            return reply("همم؟");
           }
 
           const me = m.sender;
