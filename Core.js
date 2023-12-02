@@ -1053,7 +1053,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         if (!isCreator) return reply(mess.owner)
         await A17.sendMessage(from, { react: { text: "⚠️", key: m.key } })
 
-        reply(`Okey bye time to sleep!`)
+        reply(`رايحه انام، أوياسمي!`)
         await sleep(5000)
         process.exit()
         break;
@@ -1066,7 +1066,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
         A17.public = true
-        reply('I am now Publicly accessable!')
+        reply('يمكن للجميع استخدامي الان!')
         A17.setStatus(`Mode : Public`)
       }
         break;
@@ -1079,7 +1079,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
 
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         A17.public = false
-        reply('Only Owner can use me now!')
+        reply('فقط سورا من يمكنه استخدامي الان!')
         A17.setStatus(`Mode : Self`)
       }
         break;
@@ -2079,6 +2079,61 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         } catch (error) {
           console.error(error);
           reply("An error occurred while fetching the response from the API.");
+        }
+      }
+        break;
+case 'shiro':
+      case 'cai':
+      case 'characterai': {
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+
+        const randomEmoji = manyemojis[Math.floor(Math.random() * manyemojis.length)];
+        A17.sendMessage(from, { react: { text: randomEmoji, key: m.key } });
+
+        if (!q) return reply(`try talking to real girls next time`);
+
+        try {
+          const apiUrl1 = `https://vihangayt.me/tools/characterai?q=${encodeURIComponent(q)}`;
+
+          const response1 = await fetch(apiUrl1);
+          const responseData1 = await response1.json();
+
+          let message = "";
+
+          if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.data) {
+            message = responseData1.data;
+          } else {
+            return reply("جلا");
+          }
+
+          const me = m.sender;
+          await A17.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
+
+        } catch (error) {
+          console.error(error);
+          reply("An error occurred while fetching the response from the API.");
+        }
+      }
+        break;
+
+
+      case 'dalle': case 'imgai': {
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+
+        const randomEmoji = manyemojis[Math.floor(Math.random() * manyemojis.length)];
+        A17.sendMessage(from, { react: { text: randomEmoji, key: m.key } });
+
+        if (!q) return reply(`Please provide a query to generate an image. Example: ${prefix + command} Beautiful landscape`);
+
+        const apiUrl = `https://gurugpt.cyclic.app/dalle?prompt=${encodeURIComponent(q)}`;
+
+        try {
+          await A17.sendMessage(m.chat, { image: { url: apiUrl } }, { quoted: m });
+        } catch (error) {
+          console.error(error);
+          reply("An error occurred while generating the image.");
         }
       }
         break;
@@ -7357,7 +7412,7 @@ Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
           if (isBan) return reply(mess.banned);
           if (isBanChat) return reply(mess.bangc);
           A17.sendMessage(from, { react: { text: "❌", key: m.key } })
-          reply(`Hey *${pushname}* senpai! this command are not programmed! Type *${prefix}help* to get my full command list!`)
+          reply(`هاي *${pushname}* اوني تشان! هذا الأمر غير موجود! اكتب *${prefix}help* لتحصل على قائمة الأوامر!`)
 
         }
 
