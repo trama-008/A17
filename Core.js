@@ -2105,7 +2105,7 @@ case 'chatgpt':
           if (response1.status === 200 && responseData1 && responseData1.status === true && responseData1.data) {
             message = responseData1.data;
           } else {
-            return reply("همم؟");
+            return reply("يمكنني التحدث بالإنجليزية فقط غوميين 🙁");
           }
 
           const me = m.sender;
