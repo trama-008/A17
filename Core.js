@@ -2083,7 +2083,7 @@ case 'chatgpt':
         break;
         
 
-      case 'shirogpt':
+      case 'shiro':
       case 'cai':
       case 'characterai': {
         if (isBan) return reply(mess.banned);
