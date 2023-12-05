@@ -896,7 +896,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         if (isBanChat) return reply(mess.bangc);
 
         A17.sendMessage(from, { react: { text: "💫", key: m.key } })
-        reply(`⚙ *My developer's group:* ⚙ http://gg.gg/12ewfs`)
+        reply(`⚙ *My developer's group:* ⚙ http://GOOGLE.COM/CUTECATS`)
       }
         break;
 
@@ -906,7 +906,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         if (isBanChat) return reply(mess.bangc);
 
         A17.sendMessage(from, { react: { text: "💫", key: m.key } })
-        reply(`⚙ My Source Code is </> - https://github.com/Kai0071/A17`)
+        reply(`⚙ My Source Code is </> - https://github.com/SORAXSHIRO`)
       }
         break;
 
@@ -6955,6 +6955,7 @@ Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
   ⌯    *Owner name :* ${global.OwnerName} 
   ⌯    *Bot runtime :* ${runtime(process.uptime())} 
   ⌯    *Platform :* Linux
+  ⌯ *SHIKI IS THE BEST*
 
 
   〢━━━ 〄 Core 〄 ━━━〢
@@ -7243,6 +7244,7 @@ Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
   ⌯    
   ⌯   🍁 Type *${prefix}help* to get
   ⌯       full command list.
+  ⌯ 
   ┬│▸
   ╰────────────···▸`
         let buttonMessage = {
