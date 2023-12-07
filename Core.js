@@ -781,7 +781,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
             }
 
     if (smallinput.includes('سورا')) {
-    reply (`سورا اوني تشان انه من قام بصنعي اتمنى لو تتمكن من مقابلته `);
+    reply (`سورا هو اسم مطوري، انا شيرو، سعدت بلقائك🤍`);
     }
     if (smallinput.includes('kiss')) {
     reply (`no kisses before marriage 🫵😾`);
