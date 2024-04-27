@@ -2051,13 +2051,14 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
       case 'cai': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
-
+       } 
         if (!q) return reply(`djsgshshsh`);
 
         try {
           const shiro = await axios.get(`https://skizo.tech/api/cai/chat?apikey=Sora&characterId=oRzFLaIP_QZ7dzal66T9Vpjl8Rhu0oK62cnK7IlIasM&sessionId=f7-wXNudaVLxieTfoygMvgy3rtzh7viqugJIc9ey_qE&token=92e56afa8f0e2b15187f483885bab11342bedd0c&text=${encodeURIComponent(q) `);
           const yume = shiro.data;
           let message = "";
+         
 
           if (yume.success === true) {
             message = yume.result.text;
@@ -2071,8 +2072,9 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         } catch (error) {
           console.error(error);
           reply("An error occurred while fetching the response from the API.");
-        }
+       } 
       }
+      
         break; 
 
 case 'chatgpt':
