@@ -6976,7 +6976,8 @@ Konnichiwa, my name is "SHIRO" a WhatsApp bot create and recode by SORA.
 
   〢━━━ 〄 Bot Info 〄 ━━━〢
 
- ⌯ use ${prefix}shiro if wanna talk to me ᗜ‸ᗜ
+ ⌯ use *${prefix}shiro* if wanna talk to me ᗜ‸ᗜ
+ 
   ⌯    *Bot usr name :* ${pushname} 
   ⌯    *My prefix is :*  ${prefix}
   ⌯    *Owner name :* ${global.OwnerName} 
