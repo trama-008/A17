@@ -7166,10 +7166,8 @@ Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
   ⌯     ${prefix}beautifulcheck
   ⌯     ${prefix}awesomecheck
   ⌯     ${prefix}greatcheck
-  ⌯     ${prefix}gaycheck
   ⌯     ${prefix}uglycheck
   ⌯     ${prefix}charactercheck
-  ⌯     ${prefix}lesbiancheck
   ⌯     ${prefix}hornychec
   ⌯     ${prefix}prettycheck
   ⌯     ${prefix}lovelycheck
