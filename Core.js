@@ -6967,7 +6967,7 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
         A17.sendMessage(from, { react: { text: "✨", key: m.key } })
         const helpmenu = `Hemlo *${pushname}* Dear...!! ${nowtime} ,
   
-Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
+Konnichiwa, my name is "SHIRO" a WhatsApp bot create and recode by SORA.
 
 
   ⌯    *Time* : ${kaitime}
@@ -6976,7 +6976,7 @@ Hemlo, I am "SHIRO" a WhatsApp bot create and recode by SORA.
 
   〢━━━ 〄 Bot Info 〄 ━━━〢
 
-
+ ⌯ use ${prefix}shiro if wanna talk to me ᗜ‸ᗜ
   ⌯    *Bot usr name :* ${pushname} 
   ⌯    *My prefix is :*  ${prefix}
   ⌯    *Owner name :* ${global.OwnerName} 
