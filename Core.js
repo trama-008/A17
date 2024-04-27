@@ -909,7 +909,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
         reply(`⚙ My Source Code is </> - https://github.com/SORAXSHIRO`)
       }
         break;
-
+        
 
       case 'owner': case 'creator': case 'mod': case 'mods': {
         if (isBan) return reply(mess.banned);
@@ -2046,6 +2046,34 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
           })
       }
         break;
+
+        case 'shiro':
+      case 'cai': {
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+
+        if (!q) return reply(`djsgshshsh`);
+
+        try {
+          const shiro = await axios.get(`https://skizo.tech/api/cai/chat?apikey=Sora&characterId=oRzFLaIP_QZ7dzal66T9Vpjl8Rhu0oK62cnK7IlIasM&sessionId=f7-wXNudaVLxieTfoygMvgy3rtzh7viqugJIc9ey_qE&token=92e56afa8f0e2b15187f483885bab11342bedd0c&text=${encodeURIComponent(q) `);
+          const yume = shiro.data;
+          let message = "";
+
+          if (yume.success === true) {
+            message = yume.result.text;
+          } else {
+            return reply("Sorry, my circuits has been fried..wait a bit till i get hold of myself.");
+          }
+
+          const me = m.sender;
+          await A17.sendMessage(m.chat, { text: message, mentions: [me] }, { quoted: m });
+
+        } catch (error) {
+          console.error(error);
+          reply("An error occurred while fetching the response from the API.");
+        }
+      }
+        break; 
 
 case 'chatgpt':
       case 'ai':
