@@ -786,7 +786,13 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
     if (smallinput.includes('kiss')) {
     reply (`no kisses before marriage 🫵😾`);
     }
-
+if (smallinput.includes('america ya')) {
+    if (!m.isGroup) {
+        for (let i = 0; i < 25; i++) {
+            await A17.sendMessage(from, { text: 'HELLO :D' });
+        }
+    }
+}
 
                   
     //-----------------------------------------------------------------------------------------------------------------------------------//
