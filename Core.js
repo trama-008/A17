@@ -834,7 +834,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
 
 case "America ya?" :{
         For(var i=0; i<25; i++) 
-conn.sendmessage(m.chat, {text: "HELLO :D"} 
+conn.sendmessage(m.chat, {text: "HELLO :D"}) 
                  break;
 
       case 'qt': {
