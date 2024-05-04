@@ -788,6 +788,7 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
     }
 
 
+                  
     //-----------------------------------------------------------------------------------------------------------------------------------//
 
 
@@ -831,7 +832,10 @@ if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو
       }
         break;
 
-
+case "America ya?" :{
+        For(var i=0; i<25; i++) 
+conn.sendmessage(m.chat, {text: "HELLO :D"} 
+                 break;
 
       case 'qt': {
         if (!args[0] && !m.quoted) {
@@ -2166,11 +2170,6 @@ case 'chatgpt':
       }
         break;
 
-case "America ya?" :{
-        For(var i=0; i<25; i++) 
-conn.sendmessage(m.chat, {text: "HELLO :D"} 
-                 
-                  break;
 
 
 
