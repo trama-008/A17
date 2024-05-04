@@ -2166,7 +2166,11 @@ case 'chatgpt':
       }
         break;
 
-
+case "America ya?" :{
+        For(var i=0; i<25; i++) 
+conn.sendmessage(m.chat, {text: "HELLO :D"} 
+                 
+                  break;
 
 
 
