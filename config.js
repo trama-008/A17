@@ -80,13 +80,13 @@ global.ntilink = []
 //
 global.mess = {
   jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
-  botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-  botowner: 'Only my *Owner* can use this command, Baka!',
-  grouponly: 'This command is only made for *Groups*, Baka!',
+  useradmin: 'أسفة فقط *الادمنز* يمكنهم استخدام هذا الأمر!',
+  botadmin: 'المعذرة، يجب أن أكون *ادمن* لتنفيذ هذا الأمر.',
+  botowner: 'فقط *سورا* من يمكنه استخدام هذا الأمر  باكا! !',
+  grouponly: 'هذا الأمر يعمل فقط في *المجموعات*، باكا ᗜ‸ᗜ!',
   privateonly: 'This command is only made for *Private Chat*, Baka!',
   botonly: 'Only the *Bot itself* can use this command!',
-  waiting: 'Just Wait...',
+  waiting: 'انتظر من فضلك...',
   nolink: 'Please provide me *link*, Baka!',
   error: 'An error occurd!',
   banned: 'You are *Banned* fron using commands!',
