@@ -7136,7 +7136,6 @@ Konnichiwa, my name is "SHIRO" a WhatsApp bot create and recode by SORA.
   ⌯     ${prefix}earrape
   ⌯     ${prefix}fast
   ⌯     ${prefix}fat
-  ⌯     ${prefix}nightcore
   ⌯     ${prefix}reverse
 
 
@@ -7214,20 +7213,14 @@ Konnichiwa, my name is "SHIRO" a WhatsApp bot create and recode by SORA.
   ⌯     ${prefix}manga
   ⌯     ${prefix}animewall
   ⌯     ${prefix}animewallpaper2
-  ⌯     ${prefix}crosplay
   ⌯     ${prefix}animenom
   ⌯     ${prefix}feed
-  ⌯     ${prefix}foxgirl
   ⌯     ${prefix}waifu
   ⌯     ${prefix}waifu2
   ⌯     ${prefix}waifu3
-  ⌯     ${prefix}loli
   ⌯     ${prefix}coffee
   ⌯     ${prefix}tickle
   ⌯     ${prefix}meow
-  ⌯     ${prefix}neko
-  ⌯     ${prefix}neko2
-  ⌯     ${prefix}migumin
   ⌯     ${prefix}wallpaper
   ⌯     ${prefix}animequote
  
