@@ -82,7 +82,7 @@ async function startA17() {
     if (json.content[0].tag === 'offer') {
       try {
         let contactMessage = await A17.sendContact(callerId, global.Owner)
-        await A17.sendMessage(callerId, { text: `Automatic Block System!\nDo not call this number!\nPlease unblock this number with permission from the Bot Owner.` }, { quoted: contactMessage })
+        await A17.sendMessage(callerId, { text: `حظر تلقائي!\n لا تتصل بهذا الرقم!\رجاءا تواصل مع سورا لصلاحية الغاء الحظر.` }, { quoted: contactMessage })
         await sleep(8000)
         await A17.updateBlockStatus(callerId, "block")
       } catch (error) {
@@ -140,14 +140,14 @@ async function startA17() {
       ppgc = 'https://images2.alphacoders.com/882/882819.jpg'
     }
     let wm_fatih = { url: ppgc }
-    if (pea[0].announce == true) {
+    if (pea[0].announce == false) {
       //A17.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `A17 Bot`, wm_fatih, [])
 
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!' })
     } else if (pea[0].announce == false) {
       // A17.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `A17 Bot`, wm_fatih, [])
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!' })
-    } else if (pea[0].restrict == true) {
+    } else if (pea[0].restrict == false) {
       //A17.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `A17 Bot`, wm_fatih, [])
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !' })
     } else if (pea[0].restrict == false) {
@@ -217,7 +217,7 @@ async function startA17() {
           } else if (anu.action == 'remove') {
             let WAuserName = num
             A17text = `
-  Okay Bye 👋, @${WAuserName.split("@")[0]},
+  باي باي👋, @${WAuserName.split("@")[0]},
   
   I hope you will come back soon, but You will be missed!
   `
