@@ -2060,7 +2060,7 @@ case 'shiro':
         if (!q) return reply(`Please provide a text query. Example: ${prefix + command} Hello, shiro!`);
 
         try {
-          const hoshino = await axios.get(`https://skizo.tech/api/cai/chat?apikey=Sora&characterId=oRzFLaIP_QZ7dzal66T9Vpjl8Rhu0oK62cnK7IlIasM&sessionId=f7-wXNudaVLxieTfoygMvgy3rtzh7viqugJIc9ey_qE&token=92e56afa8f0e2b15187f483885bab11342bedd0c&text=${encodeURIComponent(q)} `);
+          const hoshino = await axios.get(`https://skizo.tech/api/cai/chat?apikey=Sora&characterId=oRzFLaIP_QZ7dzal66T9Vpjl8Rhu0oK62cnK7IlIasM&sessionId=fND9Aa-deTSpO8RilwXcjSgIdshc4gx-Zi_aH57aKuY&token=92e56afa8f0e2b15187f483885bab11342bedd0c&text=${encodeURIComponent(q)} `);
           const yume = hoshino.data;
           let message = "";
 
