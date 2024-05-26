@@ -1,6 +1,5 @@
 process.on("uncaughtException", console.error);
 require("./config");
-
 const fs = require('fs');
 const pm2 = require('pm2');
 const util = require("util");
