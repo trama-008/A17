@@ -774,7 +774,9 @@ Typed *surrender* to surrender and admited defeat`
     if (responses.hasOwnProperty(smallinput)) {
       reply(responses[smallinput]);
     }
-
+if (smallinput.includes('شيرو')|| smallinput.includes('شيرو تزوجيني')) {
+    reply (`شيرو هنا، كيف يمكنني مساعدتك؟ᗜ‸ᗜ`);
+            }
 if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو تزوجيني')) {
     reply (`آسفه لا يمكنني القبول بك، سورا لن يسمح بهذا`);
             }
