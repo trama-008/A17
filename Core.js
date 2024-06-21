@@ -888,6 +888,13 @@ if (smallinput.includes('america ya')) {
             packname: `${global.BotName}`,
             author: waUserName,
           });
+          const sharp = require('sharp');
+const webpBuffer = await sharp(media)
+         .webp() 
+         .toBuffer();
+
+       A17.sendMessage(from, { sticker: webpBuffer }, { quoted: m });
+            
         } catch (error) {
           console.error(error);
           m.reply("Error generating quote!");
