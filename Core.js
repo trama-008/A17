@@ -1204,7 +1204,7 @@ const webpBuffer = await sharp(media)
 
         m.reply(respon);
         break;
-      
+     } 
 
 
       case 'autostatus':
