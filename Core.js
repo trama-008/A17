@@ -775,7 +775,7 @@ Typed *surrender* to surrender and admited defeat`
       reply(responses[smallinput]);
     }
 if (smallinput.includes('شيرو')|| smallinput.includes('شيرو تزوجيني')) {
-    reply (`شيرو هنا، كيف يمكنني مساعدتك؟ᗜ‸ᗜ`);
+    reply (`شيرو هنا، كيف يمكنني مساعدتك؟ᗜˬᗜ`);
             }
 if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو تزوجيني')) {
     reply (`آسفه لا يمكنني القبول بك، سورا لن يسمح بهذا`);
@@ -4932,6 +4932,28 @@ case 'chatgpt':
       }
         break;
 
+        case 'sticker': case 's': {
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+        A17.sendMessage(from, { react: { text: "🍆", key: m.key } })
+	let { GraphOrg } = require("./lib/uploader");
+        if (/image/.test(mime)) {
+          let media = await quoted.download()
+	  const webpBuffer = await sharp(media)
+         .webp({ animated: true }) // Set animated to true for animated stickers
+         .toBuffer();
+       // Send sticker using A17 library (replace with your actual function)
+       A17.sendMessage(from, { sticker: webpBuffer }, { quoted: m });  
+   } else if (/video/.test(mime)) {
+          if ((quoted.msg || quoted).seconds > 11) return reply('Maximum 10 seconds!')
+          let media = await quoted.download()
+          let encmedia = await A17.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+          await fs.unlinkSync(encmedia)
+	} else {
+          reply(`وين الصورة ᗜ‸ᗜ  `)
+        }
+      }
+        break;
 
       case 'igtv': {
         if (isBan) return reply(mess.banned);
