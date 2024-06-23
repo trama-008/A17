@@ -262,7 +262,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
     const pushname = m.pushName || "No Name"
     const botNumber = await A17.decodeJid(A17.user.id)
     const isCreator = [botNumber, ...global.Owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-  const isshiro = [botNumber, ...global.shiro].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+  const isshiroo = [249119105711,global.shiro].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
     const itsMe = m.sender == botNumber ? true : false
     const text = args.join(" ")
     const from = m.chat
@@ -777,7 +777,7 @@ Typed *surrender* to surrender and admited defeat`
       reply(responses[smallinput]);
     }
 if (smallinput.includes('شيرو')) {
-	if (!m.isshiro) {
+	if (!m.isGroup && !isshiroo) {
 	  reply(`شيرو هنا كيف يمكنني مساعدتكᗜˬᗜ`)
           const number = (`249119105711`)
           await A17.sendMessage(number + '@s.whatsapp.net', { text: budy , mentions: [m.sender] })
