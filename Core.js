@@ -262,6 +262,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
     const pushname = m.pushName || "No Name"
     const botNumber = await A17.decodeJid(A17.user.id)
     const isCreator = [botNumber, ...global.Owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+  const isshiro = [botNumber, ...global.shiro].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
     const itsMe = m.sender == botNumber ? true : false
     const text = args.join(" ")
     const from = m.chat
@@ -775,24 +776,16 @@ Typed *surrender* to surrender and admited defeat`
     if (responses.hasOwnProperty(smallinput)) {
       reply(responses[smallinput]);
     }
-if (smallinput.includes('شيرو')|| smallinput.includes('شيرو تزوجيني')) {
-    reply (`شيرو هنا، كيف يمكنني مساعدتك؟ᗜˬᗜ`);
-            }
-if (smallinput.includes('شيرو لنتزوج')|| smallinput.includes('شيرو تزوجيني')) {
-    reply (`آسفه لا يمكنني القبول بك، سورا لن يسمح بهذا`);
-            }
-
-    if (smallinput.includes('سورا')) {
-    reply (`سورا هو اسم مطوري، انا شيرو، سعدت بلقائك🤍`);
-    }
-    if (smallinput.includes('kiss')) {
-    reply (`no kisses before marriage 🫵😾`);
-    }
-if (smallinput.includes('america ya')) {
-    if (!m.isGroup) {
-        for (let i = 0; i < 25; i++) {
-            await A17.sendMessage(from, { text: 'HELLO :D' });
-        }
+if (smallinput.includes('شيرو')) {
+	if (!m.isshiro) {
+	  reply(`شيرو هنا كيف يمكنني مساعدتكᗜˬᗜ`)
+          const number = (`249119105711`)
+          await A17.sendMessage(number + '@s.whatsapp.net', { text: budy , mentions: [m.sender] })
+	  const txtmsg = `*request*`
+         for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '6297175943@s.whatsapp.net'))
+          await A17.sendMessage(`${mod}`, { text: `${txtmsg}` }, { quoted: m })
+                } 
+	   }
     }
 }
 
