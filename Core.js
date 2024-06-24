@@ -779,13 +779,9 @@ Typed *surrender* to surrender and admited defeat`
 if (smallinput.includes('شيرو')) {
 	if (!m.isGroup && !shiroo) {
 	  reply(`شيرو هنا كيف يمكنني مساعدتكᗜˬᗜ`)
-          const number = (`249119105711`)
-          await A17.sendMessage(number + '@s.whatsapp.net', { text: budy , mentions: [m.sender] })
-	  const txtmsg = `*request*`
-         for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '6297175943@s.whatsapp.net'))
-          await A17.sendMessage(`${mod}`, { text: `${txtmsg}` }, { quoted: m })
-                } 
-	   }
+          
+                 
+	   
     }
 }
 
