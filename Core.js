@@ -262,7 +262,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
     const pushname = m.pushName || "No Name"
     const botNumber = await A17.decodeJid(A17.user.id)
     const isCreator = [botNumber, ...global.Owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-    const shiroo = [global.shiroo].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+    const isShiro = [botNumber, ...global.shiroo].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
     const itsMe = m.sender == botNumber ? true : false
     const text = args.join(" ")
     const from = m.chat
@@ -776,12 +776,10 @@ Typed *surrender* to surrender and admited defeat`
     if (responses.hasOwnProperty(smallinput)) {
       reply(responses[smallinput]);
     }
+	  
 if (smallinput.includes('شيرو')) {
-	if (!m.isGroup && !shiroo) {
-	  reply(`شيرو هنا كيف يمكنني مساعدتكᗜˬᗜ`)
-          
-                 
-	   
+	if (!m.isGroup && !isShiro) {
+	  reply(`شيرو هنا كيف يمكنني مساعدتكᗜˬᗜ`)	   
     }
 }
 
