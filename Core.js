@@ -412,15 +412,11 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
 
 
     //Dm and Groups Autoreply/Bot chat
-    /*
-    if (!isCmd && !m.isGroup){
-        const botreply = await axios.get(`http://api.brainshop.ai/get?bid=166512&key=5nz1Ha6nS9Zx1MfT&uid=[uid]&msg=[msg]=[${budy}]`)
-        txt = `${botreply.data.cnt}`
-        m.reply(txt)
-        }    
-        
-     */
-
+    if (!isCmd && !isShiro && !m.isGroup){
+       const botreply = await axios.get(`https://skizo.tech/api/cai/chat?apikey=Sora&characterId=RAj3vm_xQVvcApJ4BFosLkOQ8O6osGz5E-K5dn9l2xE&sessionId=JbrrgeFQqFcIvnrnJae6z7k2oV9EjgAuvyKitlZCU6g&token=529e24b4173b29dbc3054fef02a380e1e5b41949&text=${encodeURIComponent(budy)}`)
+        menggoda = `${botreply.data.result.text}`
+        m.reply(menggoda)
+     }
 
 
     //----------------------------------------------------------------------------------------------------//
