@@ -779,7 +779,37 @@ if (smallinput.includes('شيرو')) {
     }
 }
 
-                  
+    if (smallinput.includes('يوكي')) {
+    reply (`اسمي ${BotName} عايز حاجة ممكن اساعدك فيها؟`);
+  } 
+
+     if (smallinput.includes('بوتة')) {
+    reply (`عيونييييي`);
+  } 
+
+     if (smallinput.includes('شوفونا') || smallinput.includes('شوفنا')) {
+   const media = await getBuffer("https://media1.tenor.com/m/L4QUJbE-Zc8AAAAC/cat-cat-side-eye.gif");
+   let encmedia = await A17.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+   await fs.unlinkSync(encmedia);	    
+   }
+	  
+if (smallinput.includes('kiss') || smallinput.includes('بوسة')) {
+	if (tagg) {
+    let media = await getBuffer("https://gifdb.com/images/thumbnail/ghost-hug-virtual-kiss-anime-girl-menhera-chan-c3fvyxsyb034zqbt.gif");
+          let encmedia = await A17.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+          await fs.unlinkSync(encmedia);
+	}
+   }
+
+
+   if (smallinput.includes('تست')) {
+    let media = await getBuffer("https://mallucampaign.in/images/img_1710704094.jpg");
+          const webpBuffer = await sharp(media)
+         .webp({ animated: true }) // Set animated to true for animated stickers
+         .toBuffer();
+       // Send sticker using A17 library (replace with your actual function)
+       A17.sendMessage(from, { sticker: webpBuffer }, { quoted: m });  
+   }
     //-----------------------------------------------------------------------------------------------------------------------------------//
 
 
