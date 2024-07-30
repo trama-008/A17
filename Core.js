@@ -810,6 +810,16 @@ if (smallinput.includes('kiss') || smallinput.includes('بوسة')) {
        // Send sticker using A17 library (replace with your actual function)
        A17.sendMessage(from, { sticker: webpBuffer }, { quoted: m });  
    }
+
+
+	  if (smallinput.includes('سست')) {
+    let media = await getBuffer("https://gifdb.com/images/thumbnail/ghost-hug-virtual-kiss-anime-girl-menhera-chan-c3fvyxsyb034zqbt.gif");
+          const webpBuffer = await sharp(media)
+         .webp({ animated: true }) // Set animated to true for animated stickers
+         .toBuffer();
+       // Send sticker using A17 library (replace with your actual function)
+       A17.sendMessage(from, { sticker: webpBuffer }, { quoted: m });  
+   }
     //-----------------------------------------------------------------------------------------------------------------------------------//
 
 
