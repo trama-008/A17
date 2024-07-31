@@ -21,15 +21,15 @@ global.prefa = ["-"];                                    //Default prefix here. 
 
 
 //
-global.Owner = ["249966553322"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["249966553322"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.ownertag = ["249117300794"];
-global.shiroo = ["249119105711"];
-global.OwnerName = "SORA";
-global.BotName = "SHIRO";
-global.packname = "SHIRO Bot";                             //Do not change.
-global.author = "By: SORA";                               //Do not change.
-global.BotSourceCode = "https://github.com/SORAxSHIRO"; //Do not change.
+global.Owner = ["249992134574"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["2499921345574"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.ownertag = ["249992134574"];
+global.shiroo = ["249991672637"];
+global.OwnerName = "TRAMAZOOL";
+global.BotName = "يوكي";
+global.packname = Yuki Bot";                             //Do not change.
+global.author = "By: TRAMA";                               //Do not change.
+global.BotSourceCode = "https://github.com/Trama-007/A17"; //Do not change.
 global.SupportGroupLink = "https://chat.GOOGLE.COM";
 
 
@@ -42,11 +42,11 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "nowhere, sudan";
+global.location = "Shendi, sudan";
 global.reactmoji = "❤️";
 global.themeemoji = "💖";
-global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
-global.websitex = "https://github.com/SORAxSHIRO";
+global.vidmenu = { url: 'https://graph.org/file/b52c1fc846c9951033a93.jpg' };
+global.websitex = "https://github.com/TRAMA-007";
 global.lolhuman = "KaysaS";
 
 
@@ -80,19 +80,19 @@ global.ntilink = []
 
 //
 global.mess = {
-  jobdone: 'Here you go...',
+  jobdone: 'استلم يا مكتب...',
   useradmin: 'أسفة فقط *الادمنز* يمكنهم استخدام هذا الأمر!',
   botadmin: 'المعذرة، يجب أن أكون *ادمن* لتنفيذ هذا الأمر.',
-  botowner: 'فقط *سورا* من يمكنه استخدام هذا الأمر  باكا! !',
+  botowner: 'فقط *تراما* من يمكنه استخدام هذا الأمر  باكا! !',
   grouponly: 'هذا الأمر يعمل فقط في *المجموعات*، باكا ᗜ‸ᗜ!',
   privateonly: 'This command is only made for *Private Chat*, Baka!',
   botonly: 'Only the *Bot itself* can use this command!',
   waiting: 'انتظر من فضلك...',
-  nolink: 'Please provide me *link*, Baka!',
-  error: 'An error occurd!',
-  banned: 'You are *Banned* fron using commands!',
-  bangc: 'This Group is *Banned* from using Commands!',
-  nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
+  nolink: 'آنو..., ، شكلك نسيت تكتب الرابط؟',
+  error: 'خطأ في العملية',
+  banned: 'آسفة ، بس انت محظور من البوت',
+  bangc: 'آسفة بس القروب دا محظور من البوت',
+  nonsfw: 'أمنع الفارغة يا زول!'
 
 }
 
