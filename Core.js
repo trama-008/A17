@@ -775,7 +775,7 @@ if (smallinput==('يوكي')) {
   }
 
     
-if (smallinput.includes('بوت') || smaillinput.includes('بوتة')){
+if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
   const typ = ['عندي اسم يا شاب', 'ناديني ب اسمي لو سمحت', 'للمرة ال100 اسمي يوكييي ياخ' , 'بوت مرتك , اه نسيت ما عندك مرا يا وحيد'];
   const random = typ[Math.floor(Math.random() * typ.length)];
   reply(random)
