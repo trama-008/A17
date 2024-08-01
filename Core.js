@@ -839,7 +839,7 @@ if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
 	       //
 
 
- 	case 'enhance':
+
         case 'upscale':{
 
         if (isBanChat) return reply(mess.bangc);
