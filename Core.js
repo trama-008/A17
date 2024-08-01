@@ -760,6 +760,7 @@ Typed *surrender* to surrender and admited defeat`
       'good afternoon': `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
       konnichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
       'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`, 
+	    'هجهج' : 'هجهج ستار ملك الأفكار ❄️⚡️🔥🌟'
     };
 
     const smallinput = budy.toLowerCase();
