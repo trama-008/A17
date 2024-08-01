@@ -840,47 +840,7 @@ if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
 
 
 
-        case 'upscale':{
 
-        if (isBanChat) return reply(mess.bangc);
-         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
-          let { GraphOrg } = require("./lib/uploader");
-
-        if (!quoted) return `*Send/reply Image With Caption* ${prefix + command}`
-        if (!/image/.test(mime)) return `*Send/reply Image With Caption* ${prefix + command}`
-        let media = await A17.downloadAndSaveMediaMessage(quoted)
-        let anu = await GraphOrg(media);
-	const typ = ['yuki', 'arona', 'adamxion'];
-        const api = typ[Math.floor(Math.random() * typ.length)];
-        let serika = await getBuffer(`https://skizo.tech/api/remini?apikey=${api}&url=${util.format(anu)}`) 
-        await A17.sendMessage(m.chat, { image: serika }, { quoted: m })
-      }
-        break;
-
-	  //
-
-	  case 'toanime':{
-
-        if (isBanChat) return reply(mess.bangc);
-         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
-          let { GraphOrg } = require("./lib/uploader");
-
-        if (!quoted) return `*Send/reply Image With Caption* ${prefix + command}`
-        if (!/image/.test(mime)) return `*Send/reply Image With Caption* ${prefix + command}`
-        let media = await A17.downloadAndSaveMediaMessage(quoted)
-        let anu = await GraphOrg(media);
-          const typ = ['yuki', 'arona', 'adamxion'];
-        const api = typ[Math.floor(Math.random() * typ.length)];
-        let serika = await getBuffer(`https://skizo.tech/api/toanime?apikey=${api}&url=${util.format(anu)}`) 
-        let shiroko = await axios.get(`https://skizo.tech/api/toanime?apikey=${api}&url=${util.format(anu)} `)
-        const sensei = shiroko.data.status;
-        if (sensei === 400) {
-            return reply("oops..daily limit reached..please wait for tomorrow reset");
-          } else {      
-        await A17.sendMessage(m.chat, { image: serika }, { quoted: m })
-      }
-         }
-        break; 
 
 
 	  //
@@ -2265,7 +2225,47 @@ case 'chatgpt':
         break;
 
 
+	  case 'upscale':{
 
+        if (isBanChat) return reply(mess.bangc);
+         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
+          let { GraphOrg } = require("./lib/uploader");
+
+        if (!quoted) return `*Send/reply Image With Caption* ${prefix + command}`
+        if (!/image/.test(mime)) return `*Send/reply Image With Caption* ${prefix + command}`
+        let media = await A17.downloadAndSaveMediaMessage(quoted)
+        let anu = await GraphOrg(media);
+	const typ = ['yuki', 'arona', 'adamxion'];
+        const api = typ[Math.floor(Math.random() * typ.length)];
+        let serika = await getBuffer(`https://skizo.tech/api/remini?apikey=${api}&url=${util.format(anu)}`) 
+        await A17.sendMessage(m.chat, { image: serika }, { quoted: m })
+      }
+        break;
+
+	  //
+
+	  case 'toanime':{
+
+        if (isBanChat) return reply(mess.bangc);
+         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
+          let { GraphOrg } = require("./lib/uploader");
+
+        if (!quoted) return `*Send/reply Image With Caption* ${prefix + command}`
+        if (!/image/.test(mime)) return `*Send/reply Image With Caption* ${prefix + command}`
+        let media = await A17.downloadAndSaveMediaMessage(quoted)
+        let anu = await GraphOrg(media);
+          const typ = ['yuki', 'arona', 'adamxion'];
+        const api = typ[Math.floor(Math.random() * typ.length)];
+        let serika = await getBuffer(`https://skizo.tech/api/toanime?apikey=${api}&url=${util.format(anu)}`) 
+        let shiroko = await axios.get(`https://skizo.tech/api/toanime?apikey=${api}&url=${util.format(anu)} `)
+        const sensei = shiroko.data.status;
+        if (sensei === 400) {
+            return reply("oops..daily limit reached..please wait for tomorrow reset");
+          } else {      
+        await A17.sendMessage(m.chat, { image: serika }, { quoted: m })
+      }
+         }
+        break; 
 
 
       case 'grupsetting':
