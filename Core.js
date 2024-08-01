@@ -776,10 +776,13 @@ if (smallinput==('يوكي')) {
 
     
 if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
+      if (isBan) return reply(`آسفة بس انت محظور من البوت`);
+      if (!isyuki) {
   const typ = ['عندي اسم يا شاب', 'ناديني ب اسمي لو سمحت', 'للمرة ال100 اسمي يوكييي ياخ' , 'بوت مرتك , اه نسيت ما عندك مرا يا وحيد'];
   const random = typ[Math.floor(Math.random() * typ.length)];
   reply(random)
- }
+      }
+	}
 
 
    if (smallinput.includes('تست')) {
