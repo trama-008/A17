@@ -806,7 +806,7 @@ if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
 
     if (smallinput.includes('يوكي') || smallinput.includes('yuki') || smallinput.includes('بوت')) {
       if (isBan) return reply(`آسفة بس انت محظور من البوت`);
-      if (!isPlana) {
+      if (!isyuki) {
             // قائمة بروابط الصور المختلفة
            const imageUrls = [
          'https://graph.org/file/f8ffca497c6fc0ebc2370.png',
