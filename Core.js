@@ -817,15 +817,7 @@ if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
       if (!isyuki) {
             // قائمة بروابط الصور المختلفة
            const imageUrls = [
-         'https://graph.org/file/f8ffca497c6fc0ebc2370.png',
-         'https://graph.org/file/8cb96154ceca2e3a7c559.png',
-         'https://graph.org/file/86c444642b5768dc7d2d5.png',
-         'https://graph.org/file/67186665580c88684c847.png',
-         'https://graph.org/file/9d93b8c642147c0e0fda1.png',
-         'https://graph.org/file/9d93b8c642147c0e0fda1.png',
-         'https://graph.org/file/cf53ec7f3817161f70e04.png', 
-         'https://graph.org/file/deb17e44845f1e7ddc9a4.jpg',
-         'https://graph.org/file/deb17e44845f1e7ddc9a4.jpg',
+        
             ];
         
             // اختيار رابط عشوائي
