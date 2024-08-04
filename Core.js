@@ -903,7 +903,7 @@ if (smallinput.includes('كيفك') || smallinput.includes('اخبارك') || sm
 
   // Jokes NOT aside :o 
 
-  if (smallinput.includes('نكتة') || smallinput.includes('نكته'){
+  if (smallinput.includes('نكتة') || smallinput.includes('نكته')) {
     if (isBan) return reply(`آسفة بس انت محظور من البوت`);
     if (!isyuki) {
 const typ = [
