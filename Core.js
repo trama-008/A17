@@ -7472,7 +7472,7 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
 
           headerType: 
 
-        }
+        
         A17.sendMessage(m.chat, buttonMessage, { quoted: m })
       }
         break;
