@@ -488,7 +488,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
       // ㅤㅤ〄ㅤㅤ〘 my name is yuki, your little assistant *-*〙ㅤㅤ〄ㅤㅤㅤㅤ
       // ㅤㅤㅤ〘ㅤ Auto Uptime: ${uptimeFormatted}ㅤ〙`;
 
-      function _0x582b(_0xabb6f8, _0x12cdd8) { const _0x58e890 = _0x58e8(); return _0x582b = function (_0x582b90, _0x4387b3) { _0x582b90 = _0x582b90 - 0x189; let _0x932613 = _0x58e890[_0x582b90]; return _0x932613; }, _0x582b(_0xabb6f8, _0x12cdd8); } function _0x58e8() { const _0x109554 = ['12896370RDSmnX', '3BgvPel', '189HbmdoW', '18854HvEPNh', '11TZHUID', '9125326EcyeIg', '464328lPaAMf', '3400722cbWEOK', '2263175KIczdo', '12TaHNqM', '2521564eqJRHK']; _0x58e8 = function () { return _0x109554; }; return _0x58e8(); } (function (_0x429d7b, _0x532ab5) { const _0x527567 = _0x582b, _0x130eb4 = _0x429d7b(); while (!![]) { try { const _0x75c57a = -parseInt(_0x527567(0x18b)) / 0x1 + -parseInt(_0x527567(0x192)) / 0x2 * (-parseInt(_0x527567(0x189)) / 0x3) + parseInt(_0x527567(0x191)) / 0x4 * (-parseInt(_0x527567(0x190)) / 0x5) + -parseInt(_0x527567(0x18f)) / 0x6 + parseInt(_0x527567(0x18d)) / 0x7 + parseInt(_0x527567(0x18e)) / 0x8 * (-parseInt(_0x527567(0x18a)) / 0x9) + parseInt(_0x527567(0x193)) / 0xa * (parseInt(_0x527567(0x18c)) / 0xb); if (_0x75c57a === _0x532ab5) break; else _0x130eb4['push'](_0x130eb4['shift']()); } catch (_0x19ea04) { _0x130eb4['push'](_0x130eb4['shift']()); } } }(_0x58e8, 0xa8dae)); const status = '\x0a\x20\x20ㅤㅤ〄ㅤㅤ〘\x20SHRIO\x20GLOBAL\x20Edition BY TRAMA\x20〙ㅤㅤ〄ㅤㅤㅤㅤ\x0a\x20\x20ㅤㅤㅤ〘ㅤ\x20Auto\x20Uptime:\x20' + uptimeFormatted + 'ㅤ〙';
+      function _0x582b(_0xabb6f8, _0x12cdd8) { const _0x58e890 = _0x58e8(); return _0x582b = function (_0x582b90, _0x4387b3) { _0x582b90 = _0x582b90 - 0x189; let _0x932613 = _0x58e890[_0x582b90]; return _0x932613; }, _0x582b(_0xabb6f8, _0x12cdd8); } function _0x58e8() { const _0x109554 = ['12896370RDSmnX', '3BgvPel', '189HbmdoW', '18854HvEPNh', '11TZHUID', '9125326EcyeIg', '464328lPaAMf', '3400722cbWEOK', '2263175KIczdo', '12TaHNqM', '2521564eqJRHK']; _0x58e8 = function () { return _0x109554; }; return _0x58e8(); } (function (_0x429d7b, _0x532ab5) { const _0x527567 = _0x582b, _0x130eb4 = _0x429d7b(); while (!![]) { try { const _0x75c57a = -parseInt(_0x527567(0x18b)) / 0x1 + -parseInt(_0x527567(0x192)) / 0x2 * (-parseInt(_0x527567(0x189)) / 0x3) + parseInt(_0x527567(0x191)) / 0x4 * (-parseInt(_0x527567(0x190)) / 0x5) + -parseInt(_0x527567(0x18f)) / 0x6 + parseInt(_0x527567(0x18d)) / 0x7 + parseInt(_0x527567(0x18e)) / 0x8 * (-parseInt(_0x527567(0x18a)) / 0x9) + parseInt(_0x527567(0x193)) / 0xa * (parseInt(_0x527567(0x18c)) / 0xb); if (_0x75c57a === _0x532ab5) break; else _0x130eb4['push'](_0x130eb4['shift']()); } catch (_0x19ea04) { _0x130eb4['push'](_0x130eb4['shift']()); } } }(_0x58e8, 0xa8dae)); const status = '\x0a\x20\x20ㅤㅤ〄ㅤㅤ〘\x20YUKI\x20GLOBAL\x20Edition BY TRAMA\x20〙ㅤㅤ〄ㅤㅤㅤㅤ\x0a\x20\x20ㅤㅤㅤ〘ㅤ\x20Auto\x20Uptime:\x20' + uptimeFormatted + 'ㅤ〙';
 
       A17.setStatus(status); // Set the status using A17.setStatus or your equivalent method
 
@@ -773,17 +773,39 @@ Typed *surrender* to surrender and admited defeat`
 if (smallinput==('يوكي')) {
       if (isBan) return reply(`آسفة بس انت محظور من البوت`);
       if (!isyuki) {
-  const typ = ['عيون يوكي', 'احكي', 'عيوني' , 'عايز حاجة؟' ,'أهلييين' , 'ديشاااك حبيبنا ياخ'];
+  const typ = ['عيون يوكي',
+   'احكي',
+    'عيوني' ,
+     'عايز حاجة؟' ,
+     'أهلييين' , 
+     'ديشاااك حبيبنا ياخ',
+    'وين يا ز9999لي',
+    'جمبك',
+    'اللمور و الصحة',
+    'اللخبار',
+    'رايك شنو في الاسم الجميل دا',
+     'الدنيا ضلام ما سامعاك'];
   const random = typ[Math.floor(Math.random() * typ.length)];
   reply(random)
   }
 	}
 
     
-if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
+if (smallinput.includes('البوت') || smallinput.includes('بوتة')){
       if (isBan) return reply(`آسفة بس انت محظور من البوت`);
       if (!isyuki) {
-  const typ = ['عندي اسم يا شاب', 'ناديني ب اسمي لو سمحت', 'للمرة ال100 اسمي يوكييي ياخ' , 'بوت مرتك , اه نسيت ما عندك مرا يا وحيد' , 'ممكن عادي تسألني من اسمي ما باكل انا...' , 'كلمة بوت بتجرح مشاعري ممكن تناديني ب اسمي؟' , 'بمشيها ليك المرة دي بس ، اها مالك'];
+  const typ = ['عندي اسم يا شاب', 'ناديني ب اسمي لو سمحت',
+   'للمرة ال100 اسمي يوكييي ياخ' ,
+   'بوت مرتك , اه نسيت ما عندك مرا يا وحيد' , 
+  'ممكن عادي تسألني من اسمي ما باكل انا...' ,
+   'كلمة بوت بتجرح مشاعري ممكن تناديني ب اسمي؟' , 
+  'بمشيها ليك المرة دي بس ، اها مالك',
+'call me بوت one more time i dare u!',
+'اليوم كلو بوت بوت ، قديتنا قد',
+'يا زول ما تشوف شغلتك',
+'الواحد يبرمجوه و يضبحو بايثون في سمايته ، يجي زول يناديه بوت',
+'خلاص انا بوت عرفنا',
+'عيون البوت'];
   const random = typ[Math.floor(Math.random() * typ.length)];
   reply(random)
       }
@@ -816,7 +838,25 @@ if (smallinput.includes('بوت') || smallinput.includes('بوتة')){
       if (isBan) return reply(`آسفة بس انت محظور من البوت`);
       if (!isyuki) {
             // قائمة بروابط الصور المختلفة
-           const imageUrls = [
+           const imageUrls = [ '',
+           'https://graph.org/file/00359404498976bb12de0.png',
+           'https://graph.org/file/68b1fe1310122d9e101a2.png',
+           'https://graph.org/file/96b97f6a983e91405108b.png',
+           'https://graph.org/file/e6a9b9c34d8f8a9815ec0.png'
+           'https://graph.org/file/5aa9c778c5462118a2e5a.png',
+           'https://graph.org/file/31f355914a558a5cac385.png',
+           'https://graph.org/file/ebdd2092ac5eebdf6c241.png',
+           'https://graph.org/file/42f08ec5bffa52ddcd5a7.png',
+           'https://graph.org/file/9cf9514a107b7da263db1.png',
+           'https://graph.org/file/7f862d96e99fb24780e7f.png',
+           'https://graph.org/file/d169b9ae86bacaf6dc1a7.png',
+           'https://graph.org/file/cbf21d0319006bd8fcbaa.png',
+           'https://graph.org/file/322e856993e524d390f0f.png',
+           'https://graph.org/file/05ec47da60f9427de5e0e.png',
+           'https://graph.org/file/820ab928174bcb86c9c3f.png',
+           'https://graph.org/file/696c6e9280fa467335937.png',
+           'https://graph.org/file/78bde4815154d19b06d2d.png',
+           'https://graph.org/file/0b64c74ce6113baec3a33.png'
         
             ];
         
@@ -860,6 +900,41 @@ if (smallinput.includes('كيفك') || smallinput.includes('اخبارك') || sm
   reply(random)
       }
 	}	 
+
+  // Jokes NOT aside :o 
+
+  if (smallinput.includes('نكتة') || smallinput.includes('نكته'){
+    if (isBan) return reply(`آسفة بس انت محظور من البوت`);
+    if (!isyuki) {
+const typ = [
+'واحد خيالو واسع اتملص منو😆' ,
+'واحد عمل ليه شاي  تقيل م قدر يشيلو😆' ,
+'واحد جاب شعرو بالجمبه عشان كان دايرو في موضوع😆',
+'واحد اسمو حسن نجيلة  نسى الباب فاتح الغنماية دخلت اكلت ابوه😆',
+'واحد كراعو خدرت وداها المشتل😆',
+'مره واحد اسمه احمد عماره داير ينتحر نط من فوق ابوه😆',
+'واحدة شعرها ناعم ختتو ف شياله😆',
+'واحد رجع في كلامه عفصو😆',
+'ضابط مرور عرس ضابطة جابو اولاد بتكلمو بالاشارات😆',
+'واحد اسمو سامح خت يدو في اضانو بقا م سامح😆',
+'استاذ عربي وقع رفعوه بالضمه😆',
+'واحده اسمها اسرار ضربتها عربيه الشارع اتملا فضايح😆',
+'مسطول داير يقطع الزلط لقى السكينه ميته😆',
+'واحده اسمها بسمه كبرت بقت توقيع😆',
+'مره مدير عام ومدير غرق😆',
+'واحد عرس صينيه شال فيها الاكل😆',
+'استاذ رياضيات طقتو ركشه فات المستشفى قالو ليهو عندك كسور قاليهم وحدو المقامات😆',
+'مسطول عرف انو الشيطان شاطر فات يراجع معاه حسبان',
+'واحد رجلينو رقاق اتسحر بيهم😆',
+'واحدة اسمها رنين غابت عن الدوام سجلوها مكالمه فائته😆',
+'واحد عيونو صغار دخلهم الروضه😆',
+    ];
+const random = typ[Math.floor(Math.random() * typ.length)];
+reply(random)
+    }
+}
+
+
 
 
 	  //
@@ -976,7 +1051,7 @@ const webpBuffer = await sharp(media)
         if (isBanChat) return reply(mess.bangc);
 
         A17.sendMessage(from, { react: { text: "💫", key: m.key } })
-        reply(`⚙ *My developer's group:* ⚙ http://GOOGLE.COM/CUTECATS`)
+        reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/BCUPpF7gKTg6Sx9y2WSIuF`)
       }
         break;
 
@@ -986,7 +1061,7 @@ const webpBuffer = await sharp(media)
         if (isBanChat) return reply(mess.bangc);
 
         A17.sendMessage(from, { react: { text: "💫", key: m.key } })
-        reply(`⚙ My Source Code is </> - https://github.com/SORAXyuki`)
+        reply(`⚙ My Source Code is </> - https://github.com/trama-008/A17`)
       }
         break;
         
@@ -1159,7 +1234,7 @@ const webpBuffer = await sharp(media)
 
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         A17.public = false
-        reply('فقط سورا من يمكنه استخدامي الان!')
+        reply('فقط تراما من يمكنه استخدامي الان!')
         A17.setStatus(`Mode : Self`)
       }
         break;
@@ -5902,25 +5977,26 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
       case 'hornycheck':
       case 'prettycheck':
       case 'lovelycheck':
-      case 'uglycheck':
+      
+      case 'ucheck':
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "😺", key: m.key } })
 
         if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
-        const sangeh = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+        const sangeh = ['100/100 ختم القباحة', '0/100 زولك وجيه', '50/50 نص نص', '70/100 بتجازف', '20/100 ما بتبلع عديل', 'دا الا تقيس قباحتو بي فولتميتر', '0/100 ما بتبلع', '-90/100 حلاوة ماشة في الأرض', 'دا قباحتو ما بتتقاس', 'دا الا تنتظرهم يخترعو أرقام جديدة',]
         const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
         A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
         break;
 
 
-      case 'charactercheck':
+      case 'ccheck':
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "🤧", key: m.key } })
 
-        if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
-        const A17tttt = ['Compassionate', 'Generous', 'Grumpy', 'Forgiving', 'Obedient', 'Good', 'Simp', 'Kind-Hearted', 'patient', 'UwU', 'top, anyway', 'Helpful']
+        if (!text) return reply(`اعمل تاق لي زول مثلاً : ${prefix + command} @Trama`)
+        const A17tttt = ['مكنة', 'طايرة ليه في راسه', 'مسكين ساي', 'أمكن زول فيك يا بلد', 'شفت ممسح بالزفت', 'راسطة ممسح بالباسطة', 'عايزة اقول بليد لكن خايفة يزعل', 'حساس بحبو الناس', 'ما عندو كلمة', 'لو البطالة عندها أبو ، هو ح يكون أبوها', 'مكن و اتركن', 'تعبن', 'همباتي ساي' , 'الكلمات لا تكفي لوصف شخصيته ، لكن الأرقام تستطيع 0/10' , 'وحيد' , 'بائس']
         const taky = A17tttt[Math.floor(Math.random() * A17tttt.length)]
         A17.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
         break;
@@ -7107,7 +7183,7 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
   ⌯    *Owner name :* ${global.OwnerName} 
   ⌯    *Bot runtime :* ${runtime(process.uptime())} 
   ⌯    *Platform :* Linux
-  ⌯ *SHIKI IS THE BEST*
+  ⌯ *AM SO FAST THEY CALL ME "الضو" !*
 
 
   〢━━━ 〄 Core 〄 ━━━〢
@@ -7316,8 +7392,8 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
   ⌯     ${prefix}beautifulcheck
   ⌯     ${prefix}awesomecheck
   ⌯     ${prefix}greatcheck
-  ⌯     ${prefix}uglycheck
-  ⌯     ${prefix}charactercheck
+  ⌯     ${prefix}Ucheck       // اختبار القبح
+  ⌯     ${prefix}Ccheck       // اختبار الشخصية
   ⌯     ${prefix}hornychec
   ⌯     ${prefix}prettycheck
   ⌯     ${prefix}lovelycheck
@@ -7374,7 +7450,7 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
   ⌯     ${prefix}afk
   ⌯     ${prefix}darkjoke
   ⌯   『  *${global.BotName}*  』
-  ⌯       Developed By: *SORA*
+  ⌯       Developed By: *T_R_A_M_A*
   ⌯    
   ⌯   🍁 To use any of these
   ⌯       commands type.
@@ -7394,7 +7470,7 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
           video: fs.readFileSync('./system/A17_3.mp4'), gifPlayback: true,
           caption: helpmenu,
 
-          headerType: 4
+          headerType: 
 
         }
         A17.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -7540,7 +7616,7 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
           if (isBan) return reply(mess.banned);
           if (isBanChat) return reply(mess.bangc);
           A17.sendMessage(from, { react: { text: "❌", key: m.key } })
-          reply(`هاي *${pushname}* هذا الأمر غير موجود! اكتب *${prefix}help* لتحصل على قائمة الأوامر!`)
+          reply(`*${pushname}* هذا الأمر غير موجود! اكتب *${prefix}help* لتحصل على قائمة الأوامر!`)
 
         }
 
