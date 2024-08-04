@@ -842,7 +842,7 @@ if (smallinput.includes('البوت') || smallinput.includes('بوتة')){
            'https://graph.org/file/00359404498976bb12de0.png',
            'https://graph.org/file/68b1fe1310122d9e101a2.png',
            'https://graph.org/file/96b97f6a983e91405108b.png',
-           'https://graph.org/file/e6a9b9c34d8f8a9815ec0.png'
+           'https://graph.org/file/e6a9b9c34d8f8a9815ec0.png',
            'https://graph.org/file/5aa9c778c5462118a2e5a.png',
            'https://graph.org/file/31f355914a558a5cac385.png',
            'https://graph.org/file/ebdd2092ac5eebdf6c241.png',
