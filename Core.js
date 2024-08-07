@@ -5978,17 +5978,17 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
       case 'prettycheck':
       case 'lovelycheck':
       
-      case 'ucheck':
+      case 'قباحة':
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "😺", key: m.key } })
 
         if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
         const sangeh = ['100/100 \n قبيح جداً',
-		       '10/100 /n عسل بس',
-		       '110/100 /n \n كسر مقياس القباحة']
+		       '10/100 \n عسل بس',
+		       '110/100 \n كسر مقياس القباحة']
         const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
-        A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
+        A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : ${sange}` }, { quoted: m })
         break;
 
 
@@ -7166,8 +7166,8 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
       case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
-        A17.sendMessage(from, { react: { text: "✨", key: m.key } })
-        const helpmenu = `Hemlo *${pushname}* Dear...!! ${nowtime} ,
+        A17.sendMessage(from, { react: { text: "📑", key: m.key } })
+        const helpmenu = `Hi *${pushname}* Dear...!! ${nowtime} ,
   
 Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
 
@@ -7394,8 +7394,8 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
   ⌯     ${prefix}beautifulcheck
   ⌯     ${prefix}awesomecheck
   ⌯     ${prefix}greatcheck
-  ⌯     ${prefix}Ucheck       --- اختبار القبح
-  ⌯     ${prefix}Ccheck       --- اختبار الشخصية
+  ⌯     ${prefix}Ucheck 
+  ⌯     ${prefix}Ccheck        
   ⌯     ${prefix}hornychec
   ⌯     ${prefix}prettycheck
   ⌯     ${prefix}lovelycheck
