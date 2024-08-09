@@ -5969,14 +5969,24 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
 
 
 
-      case 'awesomecheck':
-      case 'greatcheck':
-      case 'gaycheck':
-      case 'cutecheck':
-      case 'lesbiancheck':
-      case 'hornycheck':
-      case 'prettycheck':
-      case 'lovelycheck':
+	case 'جمال':
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+        A17.sendMessage(from, { react: { text: "😺", key: m.key } })
+
+        if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
+        const sangeh = ['100/100 \n جميل جداً',
+		       '110/100 \n عسل بس',
+		       '0/100 \n وشه = ركبته',
+		       '90/100 أجمل شخص في العالم',
+		       'الأرقام لا تستطيع تقييمه',
+		       '2/100 \n ال2 دي زاتا جات بالغلط',
+		       'الكلمات لا تستطيع وصف جماله \n لكن الأرقام تستطيع -2/100',
+		       '-100/100',
+		       '77/100 \n جميييل']
+        const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
+        A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : ${sange}` }, { quoted: m })
+        break;	    
       
       case 'قباحة':
         if (isBan) return reply(mess.banned);
