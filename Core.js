@@ -5859,7 +5859,7 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
         break;
 
 
-      case 'sticker': case 's': {
+      case 'sticker': case 's': case 'س' case 'ستيكر' {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "🤌", key: m.key } })
@@ -5926,7 +5926,21 @@ if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
       // await A17.sendButtonText(m.chat, buttons, jawab, A17.user.name, m, {mentions: ments})
       // }
       // break;
+case 'pick': case 'اختار': {
 
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+        if (!m.isGroup) return reply(`${mess.grouponly}`);
+        A17.sendMessage(from, { react: { text: "🐒", key: m.key } });
+
+        let member = participants.map(u => u.id);
+        let me = m.sender;
+        let jodoh = member[Math.floor(Math.random() * member.length)];
+
+        let message = `@${jodoh.split('@')[0]}`;
+        A17.sendMessage(m.chat, { text: message, mentions: [jodoh] }, { quoted: m });
+      }
+        break;
 
       case 'soulmate': {
 
@@ -7317,7 +7331,7 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
   〢━━━ 🛠️ *Convert* 🛠️ ━━━〢
  
 
-  ⌯     ${prefix}sticker
+  ⌯     ${prefix} س / ستيكر   << تحويل الصور لستيكر
   ⌯     ${prefix}toimg
   ⌯     ${prefix}tovideo
   ⌯     ${prefix}togif
@@ -7404,8 +7418,8 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
   ⌯     ${prefix}beautifulcheck
   ⌯     ${prefix}awesomecheck
   ⌯     ${prefix}greatcheck
-  ⌯     ${prefix}Ucheck 
-  ⌯     ${prefix}Ccheck        
+  ⌯     ${prefix}قباحة <<<< اختبار القبح 
+  ⌯     ${prefix}شخصية >>>> اختبار الشخصية        
   ⌯     ${prefix}hornychec
   ⌯     ${prefix}prettycheck
   ⌯     ${prefix}lovelycheck
@@ -7455,11 +7469,11 @@ Konnichiwa, my name is "yuki" a WhatsApp bot create and recode by TRAMA.
  
   〢━━━ 🎗 *Others* 🎗 ━━━〢
 
-
+ ⌯     ${prefix}اختار  >>>> اختيار شخص عشوائي
   ⌯     ${prefix}stickermeme
   ⌯     ${prefix}quotes
   ⌯     ${prefix}report
-  ⌯     ${prefix}afk
+  ⌯     ${prefix}afk >>>> اوفلاين
   ⌯     ${prefix}darkjoke
   ⌯   『  *${global.BotName}*  』
   ⌯       Developed By: *T_R_A_M_A*
